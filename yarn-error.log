@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Cliente\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add InputMask React
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\Cliente\AppData\Local\Microsoft\WindowsApps;C:\Users\Cliente\AppData\Roaming\npm;C:\adb;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\Users\Cliente\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin\;C:\Go\bin;C:\Program Files\CMake\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Ruby27-x64\bin;C:\Users\Cliente\.cargo\bin;C:\Users\Cliente\AppData\Local\Microsoft\WindowsApps;C:\Users\Cliente\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Cliente\AppData\Local\atom\bin;C:\Users\Cliente\AppData\Local\Microsoft\WindowsApps;C:\Users\Cliente\AppData\Roaming\npm;"cType;C:\Users\Cliente\AppData\Roaming\nvm;C:\Program Files\nodejs";C:\Program Files\heroku\bin;C:\flutter\bin;;C:\Users\Cliente\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\Cliente\AppData\Local\Yarn\bin;C:\Program Files\Docker Toolbox;C:\Users\Cliente\go\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/InputMask: Not found
+      at Request.params.callback [as _callback] (C:\Users\Cliente\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66987:18)
+      at Request.self.callback (C:\Users\Cliente\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\Cliente\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\Cliente\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1221:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "braziliannumber",
+    "version": "0.0.1",
+    "description": "Componente para utilizar no reactjs para numeros de telefone brasileiros (fixos, celular)",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "v"
+    },
+    "keywords": [
+      "reactjs",
+      "brazil",
+      "numero",
+      "de",
+      "telefone",
+      "celular",
+      "fixo",
+      "formatação"
+    ],
+    "author": "Lucas Pereira de Souza",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

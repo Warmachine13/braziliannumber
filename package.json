@@ -1,0 +1,29 @@
+{
+  "name": "braziliannumber",
+  "version": "0.0.1",
+  "description": "Componente para utilizar no reactjs para numeros de telefone brasileiros (fixos, celular)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "v"
+  },
+  "keywords": [
+    "reactjs",
+    "brazil",
+    "numero",
+    "de",
+    "telefone",
+    "celular",
+    "fixo",
+    "formatação"
+  ],
+  "author": "Lucas Pereira de Souza",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-input-mask": "^2.0.4"
+  }
+}
